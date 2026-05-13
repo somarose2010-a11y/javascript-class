@@ -1,7 +1,7 @@
 let score = "hitesh"
 
 //console.log(typeof score);
-//console.log(typeof(score));
+//console.log(typeof(score)); //methode
 
 let valueInNumber = Number(score)
 //console.log(typeof valueInNumber);
@@ -14,8 +14,8 @@ let valueInNumber = Number(score)
 
 let isLoggedIn = "hitesh"
 
-let booleanIsLoggedIn = Boolean(isLoggedIn)
-//  console.log(booleanIsLoggedIn);
+//let booleanIsLoggedIn = Boolean(isLoggedIn)
+//console.log(booleanIsLoggedIn);
 
 // 1 => true; 0 => false
 // "" => false
@@ -26,3 +26,6 @@ let someNumber = 33
 let stringNumber = String(someNumber)
 // console.log(stringNumber);
 // console.log(typeof stringNumber);
+
+//**********************Operation**************************/
+console.log(2**3)
