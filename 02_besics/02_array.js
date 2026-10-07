@@ -32,12 +32,16 @@
 
 //slice
 
-const products = ["Shirt", "Shoes", "Bag", "Sunglass"];// array slice always delete the last one
+const products = ["Shirt", "Shoes", "Bag", "Sunglass"];
+// slice() copies a portion of the array without mutating the original.
+// It excludes the end index, so slice(0, 2) keeps items at indexes 0 and 1.
 
 const newProducts = products.slice(0, 2);
 
 console.log(newProducts);
+console.log(products);
 // ["Shirt", "Shoes"]
+// ["Shirt", "Shoes", "Bag", "Sunglass"]
 
 const fruits = ["Apple", "Mango", "Orange"];
 
@@ -69,7 +73,7 @@ const productItems = [
     { name: "Bag", price: 800 }
 ];
 
-const productNames = productItems.map(product => product.price);
+const productNames = productItems.map(product => product.name);
 
 console.log(productNames);
 
@@ -83,7 +87,7 @@ console.log(productNames);
 
 const productPrice = ['500', '400', '800', '1000', '1500']
 
-const priceFilter = productPrice.filter(price => price > 400);
+const priceFilter = productPrice.filter(price => Number(price) > 400);
 
 console.log(priceFilter)
 
