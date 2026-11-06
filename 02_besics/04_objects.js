@@ -65,7 +65,7 @@ const development = {
 
 // course.courseInstructor
 
-const {wesitedeveloper: developer} = development
+const {wesitedeveloper: developer} = development //object destructure
 
 // console.log(courseInstructor);
 console.log(developer);
